@@ -27,6 +27,9 @@ void setup()
     //初始化摄像头显示在屏幕上
     k10.initBgCamerImage();
 
+    //初始化SD卡
+    k10.initSDFile();
+
 }
 
 void loop()
